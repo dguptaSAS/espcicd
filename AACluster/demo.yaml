@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: demo
-  namespace: esp
+  namespace: espdemo
 spec:
   containers:
   - env:
