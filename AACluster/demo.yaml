@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: demo
+  name: espdemopod
   namespace: esp
 spec:
   containers:
@@ -24,7 +24,7 @@ spec:
       value: "/mnt/data/output"
     image: espscr.azurecr.io/sas-esp-cr-apps/modelreader_onnx_yolov4_cpu_1-x86_64:latest
     imagePullPolicy: IfNotPresent
-    name: demo
+    name: espdemopod
     resources:
       limits:
         cpu: "1"
