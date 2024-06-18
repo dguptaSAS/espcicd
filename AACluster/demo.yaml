@@ -22,7 +22,7 @@ spec:
       value: /usr/bin/python3
     - name: ESP_PROJECT_OUTPUT
       value: "/mnt/data/output"
-    image: espscr.azurecr.io/sas-esp-cr-apps/modelreader_onnx_yolov4_cpu_1-x86_64:0.1-latest-20240115.110158
+    image: espscr.azurecr.io/sas-esp-cr-apps/modelreader_onnx_yolov4_cpu_1-x86_64:0.1-latest-20240115.121010
     imagePullPolicy: IfNotPresent
     name: espdemopod
     resources:
